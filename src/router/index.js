@@ -22,6 +22,11 @@ const routes = [
     path: '/revogrid',
     name: 'Revogrid',
     component: () => import(/* webpackChunkName: "about" */ '../views/Revogrid/index.vue')
+  },
+  {
+    path: '/vue-responsive-dash',
+    name: 'VueResponsiveDash',
+    component: () => import(/* webpackChunkName: "about" */ '../views/VueResponsiveDash/index.vue')
   }
 ]
 
